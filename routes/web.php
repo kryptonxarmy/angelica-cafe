@@ -14,6 +14,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    return view('/auth/login');
+});
+Route::get('/forgot', function () {
+    return view('/auth/forgotPassword');
+});
+Route::get('/signup', function () {
+    return view('/auth/signup');
+});
+Route::get('/dashboard', function () {
     return view('dashboard');
 });
 
@@ -30,3 +39,13 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+Route::get('/profile', function () {
+    return view('profile');
+});
+Route::get('/checkout', function () {
+    return view('checkout');
+});
+Route::get('/cart', function () {
+    return view('cart');
+});
+
