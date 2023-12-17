@@ -1,4 +1,4 @@
-<div class="w-full h-[40vh] bg-[#EDDBC7] flex justify-between py-6 px-[10em]">
+<div class="w-full h-[50vh] bg-[#EDDBC7] flex justify-between py-6 px-[10em]">
     <div class="w-1/2">
         <img src={{ asset('/img/Logo.png') }} alt="">
         <p class="text-[#61677A] mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit,

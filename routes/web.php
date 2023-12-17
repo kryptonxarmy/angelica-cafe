@@ -48,4 +48,7 @@ Route::get('/checkout', function () {
 Route::get('/cart', function () {
     return view('cart');
 });
+Route::get('/coba', function () {
+    return view('coba');
+});
 

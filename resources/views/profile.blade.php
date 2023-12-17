@@ -36,7 +36,7 @@
         <div class="flex flex-col border-2 rounded-xl px-6 mx-32 py-4 mb-6">
             <div class="flex gap-4">
                 <a href="">
-                    <h1 class="font-semibold text-xl">Personal Profile</h1>
+                    <h1 class="font-semibold text-xl underline underline-offset-8">Personal Profile</h1>
                 </a>
                 <a href="">
                     <h1 class="font-semibold text-xl">Address List</h1>
@@ -46,6 +46,8 @@
                 </a>
             </div>
             <div class="divider"></div>
+
+            {{-- CONTENT --}}
             <div class="flex gap-3">
                 <div class="w-[70%]">
                     <h1 class="text-3xl font-bold">Change User Information Here</h1>
@@ -60,7 +62,8 @@
                             <input type="text" placeholder="Phone" class="border-2 h-10 p-3 rounded-lg w-full" />
                         </div>
                         <input type="password" placeholder="Password" class="border-2 h-10 p-3 rounded-lg w-full" />
-                        <input type="password" placeholder="Confirm Password" class="border-2 h-10 p-3 rounded-lg w-full" />
+                        <input type="password" placeholder="Confirm Password"
+                            class="border-2 h-10 p-3 rounded-lg w-full" />
                         <button class="w-full border-2 text-lg text-gray-400 font-bold">Update Information</button>
                     </form>
                 </div>
@@ -74,6 +77,7 @@
                     </div>
                 </div>
             </div>
+            {{-- CONTENT --}}
         </div>
     </div>
     {{-- FOOTER --}}
