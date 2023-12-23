@@ -9,10 +9,10 @@
     </div>
     <div>
         <ul class="flex gap-3">
-            <li><a href="" class="font-bold text-xl text-[#85581F]">Home</a></li>
-            <li><a href="" class="font-bold text-xl text-[#85581F]">Menu</a></li>
-            <li><a href="" class="font-bold text-xl text-[#85581F]">About Us</a></li>
-            <li><a href="" class="font-bold text-xl text-[#85581F]">Contact</a></li>
+            <li><a href="/dashboard" class="font-bold text-xl text-[#85581F]">Home</a></li>
+            <li><a href="/menu" class="font-bold text-xl text-[#85581F]">Menu</a></li>
+            <li><a href="/about" class="font-bold text-xl text-[#85581F]">About Us</a></li>
+            <li><a href="/contact" class="font-bold text-xl text-[#85581F]">Contact</a></li>
         </ul>
     </div>
 </div>

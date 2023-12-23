@@ -35,7 +35,6 @@
 
     <div class="flex flex-col justify-between min-h-screen pb-6">
         @include('layout.navbar')
-
         @include('components.addNewAddress')
         @include('components.addNewAddress')
     </div>

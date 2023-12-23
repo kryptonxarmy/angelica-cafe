@@ -35,13 +35,13 @@
     <div class="h-full pt-[7em]">
         <div class="flex flex-col border-2 rounded-xl px-6 mx-32 py-4 mb-6">
             <div class="flex gap-4">
-                <a href="">
+                <a href="/profile/profile">
                     <h1 class="font-semibold text-xl underline underline-offset-8">Personal Profile</h1>
                 </a>
-                <a href="">
+                <a href="/profile/address">
                     <h1 class="font-semibold text-xl">Address List</h1>
                 </a>
-                <a href="">
+                <a href="/profile/transaction">
                     <h1 class="font-semibold text-xl">Transaction List</h1>
                 </a>
             </div>
